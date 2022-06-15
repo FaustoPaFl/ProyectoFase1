@@ -17,8 +17,6 @@ button{
 .header{
     margin:  40px 20px 0;
     font-size: 0;
-    font:sans-serif;
-    height: 45px;
 }
 li{
     display: inline;
@@ -42,6 +40,8 @@ li{
     width: 70%;
     text-align: left;
     color: #025157;
+    font:sans-serif;
+    height: 45px;
 }
 .actions{
     width: 15%;
