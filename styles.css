@@ -66,3 +66,13 @@ li{
     margin-top: 140px;
     text-align: center;
 }
+article>h1{
+color: #025157;
+font-family: sans-serif;
+}
+article>p{
+    color:#343434 ;
+}
+article>button{
+    background-color: #025157;
+}
