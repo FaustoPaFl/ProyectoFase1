@@ -14,10 +14,18 @@ p{
 button{
     color:#fff;
     background-color: #025157;
+    cursor: pointer;
 }
 .header{
     margin:  40px 20px 0;
     font-size: 0;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
 }
 li{
     display: inline;
@@ -61,10 +69,14 @@ li{
     border-radius: 5px;
     padding: 12px 14px 12px 14px;
     border: 0;
+    cursor: pointer;
 }
 .main{
     margin-top: 140px;
     text-align: center;
+}
+article{
+    margin: 30px;
 }
 article>h1{
 color: #025157;
@@ -75,4 +87,82 @@ article>p{
 }
 article>button{
     background-color: #025157;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video img{
+    width: 120px;
+    margin-top: 10px;
+}
+.overview h2{
+    font-family: 'Alegreya', serif;
+    font-family: 'Nunito', sans-serif;
+    color: #025157;
+    font-size: 51px;
+}
+.overview p{
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.overview button{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+    cursor: pointer;
+}
+.overview img{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+article.overview{
+    flex: 2;
+    padding-right: 100px;
+}
+section.casos{
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+article.stories{
+    flex: 2;
+    width: 50%;
+}
+.carrusel {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.carrusel h4{
+    color: #025157;
+}
+.carrusel h5{
+    color: grey;
+}
+.carrusel p{
+    color: black;
+}
+.carrusel button{
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    weight   
 }
