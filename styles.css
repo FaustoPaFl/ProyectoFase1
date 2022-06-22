@@ -166,3 +166,6 @@ article.stories{
     position: relative;
     weight   
 }
+.features{
+    display: grid;
+}
