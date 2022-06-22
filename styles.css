@@ -168,4 +168,5 @@ article.stories{
 }
 .features{
     display: grid;
+    grid-template-columns: repeat (2,300px)
 }
