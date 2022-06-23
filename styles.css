@@ -204,14 +204,30 @@ line-height: 48px;
     margin-top: 0;
     height: 100%;
 }
-
-.overview h2{
-    font-family: 'Alegreya', serif;
-    font-family: 'Nunito', sans-serif;
-    color: #025157;
-    font-size: 51px;
+.success-stories{
+    background-color: #a1d683;
+    display: flex;
+    padding: 5% 15%;
+    align-items: center;
 }
 
+.success-stories .overview{
+    padding-right: 100px;
+    flex: 2;
+}
+
+.overview>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overview h2{
+    color: #025157;
+    font-family:'Alegreya', serif;
+    font-size: 51px;
+    line-height: 61px;
+}
 .overview p{
     color: #343434;
     font-size: 18px;
@@ -224,56 +240,32 @@ line-height: 48px;
     padding: 12px 12px 6px 12px;
     border-radius: 8px;
     height: 45px;
-    font-weight: 600;
     margin-left: 0;
     cursor: pointer;
 }
-
 .overview img{
     width: 500px;
     max-width: 100%;
-    margin-top: 20px;
 }
 
-article.overview{
-    flex: 2;
-    padding-right: 100px;
-}
-
-section.casos{
-    background-color: #a1d683;
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-article.stories{
-    flex: 2;
-    width: 50%;
-}
-
-.carrusel {
+.success-stories .stories{
+    flex: 1;
     background-color: #fff;
-    border-radius: 10px;
 }
 
-.carrusel h4{
+.stories img{
+    width: fit-content;
+}
+
+.stories h4{
     color: #025157;
+    font-size: 30px;
 }
 
-.carrusel h5{
-    color: grey;
-}
+.stories p{
 
-.carrusel p{
-    color: black;
 }
-
-.carrusel button{
-    font-size: 14px;
+.stories button{
     border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    position: relative;
+    height: 40px;
 }
