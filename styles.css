@@ -3,6 +3,7 @@ body {
 }
 
 h1{
+    font-size: 60px;
     color: #025157;
     text-align: center;
     font-family:'Alegreya', serif;
@@ -237,7 +238,7 @@ line-height: 48px;
 
 .overview button{
     font-size: 14px;
-    padding: 12px 12px 6px 12px;
+    padding: 12px 12px 12px 12px;
     border-radius: 8px;
     height: 45px;
     margin-left: 0;
@@ -268,4 +269,31 @@ line-height: 48px;
 .stories button{
     border-radius: 8px;
     height: 40px;
+}
+/**dispositivos moviles en vertical*/
+@media (max-width:575px){
+    .navbar,
+    .actions{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .main{
+        margin-top: 100px;
+    }
+}
+
+/**dispositivos moviles en horizontal*/
+@media (min-width:576px) and (max-width:767px){
+    .navbar,
+    .actions{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .main{
+        margin-top: 100px;
+    }
 }
