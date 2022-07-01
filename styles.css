@@ -19,7 +19,7 @@ p{
     font-size: 20px;
 }
 
-input, button {
+.nav button {
     height: 100%;
     border-radius: 8px;
 }
@@ -37,10 +37,8 @@ button{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
     padding: 6px 20px;
-    margin-left: -10px;
+    margin-left: 15px;
 }
 
 .header{
@@ -485,10 +483,20 @@ line-height: 48px;
     .actions{
         display: none;
     }
+    
     h1{
         font-size: 30px;
     }
+    
     .main{
         margin-top: 100px;
     }
+
+    .col-sm {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }    
 }
