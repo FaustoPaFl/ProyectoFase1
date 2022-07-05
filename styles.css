@@ -7,10 +7,16 @@ h1{
     color: #025157;
     text-align: center;
     font-family:'Alegreya', serif;
+    margin-bottom: 100px;
 }
 
 .matcha-ejemplo>img{
     width: 70%;
+    margin-top: 100px;
+}
+
+.texto-boton:hover{
+    background-color: #67b54b;
 }
 
 p{
@@ -392,7 +398,61 @@ line-height: 48px;
     margin-top: 6px;
 }
 
-.step-card-body a{
+.how-does-it-work .steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.how-does-it-work .steps .card-step .card-step-image {
+    position: relative;
+    height: 300px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body {
+    padding: 25px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+}
+
+.card-step-body a{
     font-size: 16px;
     line-height: 1.4;
     color: #67b54b;
