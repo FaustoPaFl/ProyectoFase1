@@ -438,7 +438,132 @@ line-height: 48px;
 }
 
 /**dispositivos moviles en vertical*/
-@media (max-width:575px){
+@media (max-width:345px){
+
+    .main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .banner img{
+        max-width: 100%;
+    }
+    
+    .promo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    video{
+        max-width: 100%;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+    .publish{
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .publish>p{
+        text-align: justify;
+    }
+
+    .publish>form>p{
+        text-align: center;
+    }
+
+    .publish form div{
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .publish form div button{
+        margin-left: 0;
+    }
+
+    .features{
+        grid-template: repeat(4,1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+        height: 100%;
+    }
+
+    .features .feature-card .feature-content{
+        height: 90%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .features .feature-card img{
+        display: none;
+    }
+
+    .feature-image {
+        display: none;
+    }
+
+    .success-stories{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 5% 5%;
+    }
+
+    .success-stories .overview{
+        padding-left: 50px;
+    }
+
+    .success-stories .overview h2{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .success-stories .overview p{
+        text-align: justify;
+    }
+
+    .success-stories .overview button{
+        padding-top: 6px;
+        margin-bottom: 15px;
+        margin-left: 35px;
+    }
+
+    .success-stories .overview img{
+        width: 300px;
+    }
+
+    .how-does-it-work h1{
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .how-does-it-work .steps{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .steps .card-step{
+        margin-top: 20px;
+    }
+
+    .col button{
+        margin-left: 0;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .blog .row .col{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:346px) and (max-width:575px){
     
     .navbar {
         background-color: #fffbf7;
