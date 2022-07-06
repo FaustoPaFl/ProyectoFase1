@@ -1,77 +1,11 @@
-body {
-    background-color: #fffbf7;
-}
-
-h1{
-    font-size: 60px;
-    color: #025157;
-    text-align: center;
-    font-family:'Alegreya', serif;
-    margin-bottom: 100px;
-}
-
-.matcha-ejemplo>img{
-    width: 70%;
-    margin-top: 100px;
-}
-
-.texto-boton:hover{
-    background-color: #67b54b;
-}
-
-p{
-    color: #8b8b8bcc;
-    font-family: Verdana;
-    font-size: 20px;
-}
-
 .nav button {
     height: 100%;
     border-radius: 8px;
 }
 
-input{
-    border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    width: 60%;
-    max-width: 250px;
-}
-
-button{
-    color:#fff;
-    background-color: #025157;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    padding: 6px 20px;
-    margin-left: 15px;
-}
-
-.header{
-    margin:  40px 20px 0;
-    font-size: 0;
-    font-family: sans-serif;
-}
-
-.fixed-header{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #fff;
-}
-
 li{
     display: inline;
     margin: 0 25px 0;
-}
-
-.header > *{
-    display: inline-block;
-    font-size: 16px;
-    line-height: 45px;
-    height: 100%;
-    vertical-align: middle;
 }
 
 .logo{
@@ -112,6 +46,50 @@ li{
     padding: 12px 14px;
     border: 0;
     cursor: pointer;
+}
+
+body {
+    background-color: #fffbf7;
+}
+
+h1{
+    font-size: 60px;
+    color: #025157;
+    text-align: center;
+    font-family:'Alegreya', serif;
+    margin-bottom: 100px;
+}
+
+.matcha-ejemplo>img{
+    width: 70%;
+    margin-top: 100px;
+}
+
+.texto-boton:hover{
+    background-color: #67b54b;
+}
+
+p{
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+button{
+    color:#fff;
+    background-color: #025157;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 20px;
+    margin-left: 15px;
 }
 
 .main{
@@ -239,35 +217,35 @@ line-height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .success-stories .overview {
+}
+.success-stories .overview {
     flex: 2;
     padding-right: 100px;
-  }
-  .success-stories .overview h2 {
+}
+.success-stories .overview h2 {
     font-family: "Alegreya", serif;
     font-size: 51px;
     line-height: 61px;
     color: #025157;
-  }
-  .success-stories .overview p {
+}
+.success-stories .overview p {
     color: #343434;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 1rem;
-  }
-  .success-stories .overview button {
+}
+.success-stories .overview button {
     font-size: 14px;
     padding: 12px 12px 6px 12px;
     border-radius: 8px;
     height: 45px;
     font-weight: 600;
     margin-left: 0;
-  }
-  .success-stories .overview img {
+}
+.success-stories .overview img {
     width: 500px;
     max-width: 100%;
-  }
+}
 
 .how-does-it-work{
     padding:5% 10%;
@@ -281,13 +259,13 @@ line-height: 48px;
     width: 100%;
     min-height: 600px;
     margin: 0 auto;
-  }
+}
 
   /* Con object-fit, hacemos que la imagen se ajuste a la medida de su contenedor y limitamos su alto */
 .success-stories .card img {
     max-height: 55vh;
     object-fit: cover;
-  }
+}
 
   /* Agregamos position: relative para recibir un elemento con position:absolute más adelante */
 .success-stories .card .card-body {
@@ -295,7 +273,7 @@ line-height: 48px;
     width: 100%;
     position: relative;
     padding: 40px 1rem 1rem;
-  }
+}
 
   /* Estos son los estilos para textos y acomodo de elementos */
 .success-stories .card .card-body h4 {
@@ -305,31 +283,31 @@ line-height: 48px;
     line-height: 20px;
     margin-bottom: 12px;
     font-family: "Slabo 27px", serif;
-  }
+}
 
-  .success-stories .card .card-body h3 {
+.success-stories .card .card-body h3 {
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
-  }
+}
   
-  .success-stories .card .card-body .results {
+.success-stories .card .card-body .results {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-  }
+}
   
   .success-stories .card .card-body .results img {
     width: 26px;
     margin-right: 20px;
-  }
+}
   
-  .success-stories .card .card-body .results p {
+.success-stories .card .card-body .results p {
     margin: 0;
-  }
+}
   
-  .success-stories .card .card-footer button {
+.success-stories .card .card-footer button {
     display: block;
     margin-left: 0;
     border-radius: 5px;
@@ -340,16 +318,16 @@ line-height: 48px;
     background-color: #025157;
     color: #fff;
     border: none;
-  }
+}
   
-  .success-stories .card .card-footer {
+.success-stories .card .card-footer {
     background-color: #ffffff;
     color: #fff;
     border: none;
-  }
+}
   
   /* Aqui hacemos un círculo con CSS! Este se posicionará en el margen superior de .card-body */
-  .success-stories .card .card-body .card-circle {
+.success-stories .card .card-body .card-circle {
     display: flex;
     align-items: center;
     position: absolute;
@@ -359,19 +337,19 @@ line-height: 48px;
     height: 75px;
     border-radius: 50%;
     padding: 5px;
-  }
+}
   
   /* Cada círculo tiene su propio color. Verifica qué significa este selector: .card-circle.everly */
-  .success-stories .card .card-body .card-circle.everly {
+.success-stories .card .card-body .card-circle.everly {
     background-color: #f9da73;
     border: 5px solid #f9da73;
-  }
+}
   
   /* Los círculos deben recibir la imagen y ajustarla al tamaño */
-  .success-stories .card .card-body .card-circle.everly img {
+.success-stories .card .card-body .card-circle.everly img {
     object-fit: contain;
     width: 100%;
-  }
+}
   
 .how-does-it-work p{
     max-width: 60%;
@@ -500,8 +478,15 @@ line-height: 48px;
         margin-top: 10px;
     }
     
-    .publish>form>input{
-        width: 60%;
+    .publish>form>div>input{
+        width: 50%;
+        
+    }
+
+    .publish>form>div>button{
+        width: 50%;
+        margin-top: 15px;
+        margin-left: 0;
     }
     
     .promo{
@@ -535,6 +520,48 @@ line-height: 48px;
 
     .feature-image {
         display: none;
+    }
+
+    .success-stories{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .success-stories .stories-carousel{
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .how-does-it-work>h1{
+        margin-bottom: 20px;
+    }
+
+    .how-does-it-work .steps{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+
+    .steps .card-step{
+        margin-top: 20px;
+    }
+
+    .row {
+        display: block;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .row .col{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .col button{
+        margin-left: 0;
+        margin-top: -30px;
     }
 
 /**dispositivos moviles en horizontal*/

@@ -1,0 +1,158 @@
+.navbar{
+    background-color: #fffbff;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+
+    button {
+        height: 100%;
+        border-radius: 8px;
+    }
+
+    li{
+        display: inline;
+        margin: 0 25px 0;
+    }
+
+    .logo{
+        width: 15%;
+    }
+      
+      .logo >img{
+        width: 15%;
+    }
+
+    .actions{
+        display:inline;
+        width: 15%;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 600;
+
+        a{
+            color: #67b54b;
+        }
+
+        button{
+            color: #fff;
+            background-color: #67b54b;
+            border-radius: 5px;
+            padding: 12px 14px;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+
+    .actions>*{
+        margin: 0 10px;
+    }
+}
+
+body {
+    background-color: #fffbf7 !important;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-features{
+
+    padding: 30px 0 65px;
+    margin-top: 150px;
+
+    .section-title{
+        text-align: center;
+        margin-bottom: 60px;
+
+        h1{
+            color: #025157;
+            font-family: "Alegreya", serif;
+            font-weight: 700;   
+        }
+    }
+}
+
+.feature-image{
+
+    img{
+        width: 100%;
+    }
+}
+
+
+.feature__title__anchor {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 24px;
+
+    .feature-title{
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 35px;
+        text-decoration: none;
+        color: inherit;
+        transition-duration: 1s;
+
+        &:hover{
+            color: #67b54b;
+            font-size: 30px;
+        }
+    }
+}
+
+.flecha {
+    margin: 0 auto;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 35px;
+
+    .flecha-animada{
+        img{
+            width: 80px;
+            transform: rotate(-90deg);  
+        }
+    }
+}
+  
+.flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+}
+  
+.flecha-animada {
+    position: absolute;
+    animation-name: up-and-down, laterales;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 130px;
+    width: 130px;
+}
+
+@keyframes laterales{
+    from {left: -400px;}
+    to {left: 400px}
+  }
+  
+  @keyframes up-and-down{
+    0%{
+      top: 100px;
+    }
+    25%{
+      top: 50px;
+    }
+    50%{
+      top: -30px;
+    }
+    75%{
+      top: 50px;
+    }
+    100%{
+      top: 100px;
+    }
+  }
